@@ -8,6 +8,7 @@ export class AuthService {
 
   login(usuario: string, password: string) {
     sessionStorage.setItem('login', 'true');
+    sessionStorage.setItem('username', usuario);
   }
 
   logout() {

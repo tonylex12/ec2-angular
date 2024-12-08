@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.card {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.card mat-card-header {
+  justify-content: center;
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 20px;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+button {
+  min-width: 120px;
+}

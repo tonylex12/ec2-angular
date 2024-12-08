@@ -1,1 +1,11 @@
-<p>profile works!</p>
+<div class="profile-container">
+  <h2 class="welcome-message">¡Bienvenido, {{ usuario }}!</h2>
+  <div class="profile-content">
+    <p>Esta es tu página de perfil personal.</p>
+  </div>
+  <mat-card-actions>
+    <button mat-raised-button color="accent" (click)="logout()">
+      Cerrar Sesión
+    </button>
+  </mat-card-actions>
+</div>
